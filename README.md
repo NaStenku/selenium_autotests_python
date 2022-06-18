@@ -21,6 +21,7 @@ https://stepik.org/course/575
 - **test_main_page.py, test_product_page** - Here we perform the tests ourselves.
 
 
+![project-structure_by_Павел Кузьмин](https://user-images.githubusercontent.com/58818244/174458904-d5f8c6c9-5282-4f6d-bd17-e30a05029184.jpeg) "img_by_Павел Кузьмин"
 
 
 >#### Thank you for your time!
