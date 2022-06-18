@@ -8,10 +8,9 @@ class BasePageLocators:
 
 
 class BasketPageLocators:
-    EMPTY_BASKET_MESSAGE = (By.CSS_SELECTOR, "#content_inner > p")
-    BASKET_WITH_ITEMS = (By.CSS_SELECTOR, "#content_inner > div.basket-title.hidden-xs > div > h2")
-    BASKET_LINK = (By.CSS_SELECTOR, "#default > header > div.page_inner > div > div.basket-mini.pull-right.hidden-xs "
-                                    "> span > a")
+    EMPTY_BASKET_MESSAGE = (By.CSS_SELECTOR, "#content_inner p")
+    BASKET_WITH_ITEMS = (By.CSS_SELECTOR, "h2.col-sm-6")
+    BASKET_LINK = (By.CSS_SELECTOR, ".btn-group a")
 
 
 class LoginPageLocators:
@@ -24,11 +23,10 @@ class LoginPageLocators:
 
 
 class ProductPageLocators:
-    BASKET_BUTTON = (By.CSS_SELECTOR, "#add_to_basket_form > button")
-    BOOK_NAME = (By.CSS_SELECTOR, "#content_inner > article > div.row > div.col-sm-6.product_main > h1")
-    BOOK_IN_BASKET_NAME = (By.CSS_SELECTOR, "#messages > div:nth-child(1) > div > strong")
-    BOOK_PRICE = (By.CSS_SELECTOR, "#content_inner > article > div.row > div.col-sm-6.product_main > p.price_color")
-    BASKET_PRICE = (By.CSS_SELECTOR, "#messages > div.alert.alert-safe.alert-noicon.alert-info.fade.in > div > "
-                                     "p:nth-child(1) > strong")
-    SUCCESS_MESSAGE = (By.CSS_SELECTOR, "#messages > div:nth-child(1) > div")
+    BASKET_BUTTON = (By.CSS_SELECTOR, ".btn-add-to-basket")
+    BOOK_NAME = (By.CSS_SELECTOR, ".col-sm-6.product_main h1")
+    BOOK_IN_BASKET_NAME = (By.CSS_SELECTOR, "#messages div:nth-child(1) strong")
+    BOOK_PRICE = (By.CSS_SELECTOR, ".col-sm-6.product_main .price_color")
+    BASKET_PRICE = (By.CSS_SELECTOR, ".alertinner p strong")
+    SUCCESS_MESSAGE = (By.CSS_SELECTOR, "#messages div:nth-child(1)")
 

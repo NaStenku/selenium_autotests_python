@@ -10,6 +10,5 @@ class BasketPage(BasePage):
         assert self.is_not_element_present(*BasketPageLocators. BASKET_WITH_ITEMS), "Basket is not empty"
 
     def go_to_basket(self):
-        login_link = self.browser.find_element(*BasketPageLocators.BASKET_LINK)
-        login_link.click()
+        self.browser.find_element(*BasketPageLocators.BASKET_LINK).click()
 
