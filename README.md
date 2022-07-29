@@ -1,6 +1,8 @@
 # Here is my final project from **Python Selenium Automation Course**
 https://stepik.org/course/575
 
+[Certificate](https://github.com/NaStenku/Certificates/blob/master/stepik-certificate-575-432aee7%20(1).pdf)
+
 ## What we have inside:
 ### **Pages**:
 - **base_page.py** - Here we store methods that apply to the entire project in general, all wrapped up in a class to make it easy to import.
